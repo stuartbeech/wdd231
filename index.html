@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home Page</title>
+    <meta name="description" content="WDD 231 - Home Page">
+    <meta name="author" content="Stuart Beech">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <img src="images/profile.jpg" alt="Profile">
+            <h1>Stuart Beech</h1>
+        </div>
+
+        <button aria-label="links" id="Hamburger" class="hamburger"></button>
+        <nav id="PrimaryNav">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Github Profile</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/stuart-beech-48490b33" target="_blank">LinkedIn</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="grid-container">
+            <section class="course-work">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+
+            <section class="about-state">
+                <h2>Johannesburg, South Africa</h2>
+                <figure>
+                    <img src="images/blue-crane.webp" alt="Blue Crane">
+                    <figcaption>South African Blue Crane</figcaption>
+                </figure>
+            </section>
+
+            <section class="certificate">
+                <h2>Web and Computer Programming Certificate <span id="creditsRemaining"></span></h2>
+                <div class="small-nav">
+                    <ul>
+                        <li class="all-courses">ALL</li>
+                        <li class="cse-courses">CSE</li>
+                        <li class="wdd-courses">WDD</li>
+                    </ul>
+
+                    <div id="courses-container">
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- <dialog class="modal" id="course-details">
+        <div class="dialog-content">
+        </div>
+    </dialog> -->
+
+    <footer>
+        <p id="copyright">&copy;<span id="year"></span> Stuart beech, Johannesburg</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
