@@ -82,7 +82,7 @@ function displayCourses(filteredCourses) {
     const container = document.getElementById('courses-container');
     container.innerHTML = '';
 
-    let creditsRemaining = 0;
+    let totalCredits = 0;
     filteredCourses.forEach(course => {
         const courseDiv = document.createElement('div');
         courseDiv.classList.add('course-card');
@@ -90,7 +90,7 @@ function displayCourses(filteredCourses) {
             courseDiv.classList.add('completed');
         } else {
             courseDiv.classList.add('not-completed');
-            creditsRemaining += course.credits;
+            // creditsRemaining += course.credits;
         }
         // courseDiv.innerHTML = `
         //     <h3>${course.subject} ${course.number}</h3>
@@ -103,10 +103,10 @@ function displayCourses(filteredCourses) {
 
         courseDiv.appendChild(courseList);
         container.appendChild(courseDiv);
-        // totalCredits += course.credits;
+        totalCredits += course.credits;
     });
 
-    document.getElementById('creditsRemaining').textContent = `(${creditsRemaining} Credits remaining)`;
+    document.getElementById('totalCredits').textContent = `(${totalCredits} Total Credits)`;
 }
 
 function filterCourses(subject) {
