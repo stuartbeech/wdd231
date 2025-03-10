@@ -20,6 +20,12 @@ header {
     margin: 0;
 }
 
+main h1 {
+    color: var(--primary-color);
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
 #header-container {
     display: flex;
     align-items: center;
@@ -157,7 +163,7 @@ figure img {
     grid-template-rows: auto;
     justify-content: center;
     gap: 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 30px;
 }
 
@@ -292,6 +298,10 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    main h1 {
+        margin-left: 40px;
+    }
+
     #header-container h1 {
         font-size: 25px;
     }
@@ -324,7 +334,7 @@ footer {
     .grid-container {
         display: flex;
         flex-direction: column;
-        margin: 40px;
+        margin: 0 40px 40px;
     }
 
     .course-work h2,
