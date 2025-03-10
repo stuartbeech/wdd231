@@ -22,8 +22,8 @@ header {
 
 main h1 {
     color: var(--primary-color);
-    margin-left: 60px;
     margin-bottom: 0;
+    margin-left: 60px;
 }
 
 #header-container {
@@ -42,9 +42,9 @@ main h1 {
     box-shadow: 0 0 90px 10px;
 }
 
-#header-container h1 {
-    font-size: 50px;
+#header-container h2 {
     color: var(--light-color);
+    font-size: 48px;
 }
 
 #PrimaryNav {
@@ -299,11 +299,12 @@ footer {
 /* Media Queries */
 @media (max-width: 768px) {
     main h1 {
+        font-size: 24px;
         margin-left: 40px;
     }
 
-    #header-container h1 {
-        font-size: 25px;
+    #header-container h2 {
+        font-size: 28px;
     }
 
     #PrimaryNav .navigation {
