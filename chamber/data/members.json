@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Absa Group Limited",
+            "email": "absa@absa.co.za",
+            "phone_number": "+27 11 350 4000",
+            "website_url": "https://www.absa.africa",
+            "image_icon": "images/absa.png",
+            "membership_level": 3
+        },
+        {
+            "name": "Adams & Adams Attorneys",
+            "email": "jhb@adams.africa",
+            "phone_number": "+27 12 432 6000",
+            "website_url": "https://www.adams.africa",
+            "image_icon": "images/adams-and-adams.png",
+            "membership_level": 2
+        },
+        {
+            "name": "Air Products South Africa (Pty) Ltd",
+            "email": "infopl@airproducts.com",
+            "phone_number": "+27 11 570 5000",
+            "website_url": "https://www.airproductsafrica.co.za",
+            "image_icon": "images/air-products.png",
+            "membership_level": 2
+        },
+        {
+            "name": "Amazon South Africa (Pty) Ltd",
+            "email": "cs-reply@amazon.com",
+            "phone_number": "+27 21 468 2000",
+            "website_url": "https://www.amazon.co.za",
+            "image_icon": "images/amazon.png",
+            "membership_level": 3
+        },
+        {
+            "name": "AON South Africa (Pty) Ltd",
+            "email": "comments@aon.co.za",
+            "phone_number": "+27 11 944 7000",
+            "website_url": "https://www.aon.co.za",
+            "image_icon": "images/aon.png",
+            "membership_level": 2
+        },
+        {
+            "name": "Apple Inc. South Africa",
+            "email": "N/A",
+            "phone_number": "+27 11 535 9000",
+            "website_url": "https://www.apple.com/za",
+            "image_icon": "images/apple.png",
+            "membership_level": 3
+        },
+        {
+            "name": "Avon Justine (Pty) Ltd",
+            "email": "customer.sa@avon.com",
+            "phone_number": "+27 11 747 2900",
+            "website_url": "https://www.avon.co.za",
+            "image_icon": "images/avon-justine.jpeg",
+            "membership_level": 1
+        }
+    ]
+}

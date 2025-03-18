@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stuart Beech - Chamber Directory</title>
+    <meta name="description" content="WDD 231: Web Frontend Development 1 - Chamber Directory Page">
+    <meta name="author" content="Stuart Beech">
+
+    <meta property="og:title" content="W02 Chamber Directory Page">
+    <meta property="og:description" content="Personal portfolio of university course work.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stuartbeech.github.io/wdd231/">
+    <meta property="og:image" content="https://www.south-africa-info.co.za/info/towns/624/images/bottom_images/7.jpg">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="../scripts/date.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-row">
+            <div class="logo">
+                <a href="index.html"><img src="images/nextgen.png" alt="NextGen Network logo"></a>
+            </div>
+            <nav>
+                <div id="hamburger" class="hamburger">
+                    <span class="hamburger-span"></span>
+                    <span class="hamburger-span"></span>
+                    <span class="hamburger-span"></span>
+                </div>
+                <aside class="nav-toggle" aria-hidden="true">
+                    <ul class="nav-menu close" id="navMenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Discover</a></li>
+                    </ul>
+                </aside>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="companies">
+            <div class="toggle-btn-container">
+                <button id="toggleLayoutBtn" aria-label="Toggle between list and grid view">Switch to List View</button>
+            </div>
+            <div id="cards"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-left">
+                <p class="footer-heading">NextGen Chamber of Commerce</p>
+                <p>1 Corkbush Street</p>
+                <p>South Africa, 1709</p>
+                <p>sbeech@byui.edu</p>
+                <p>(+27) 71 896 4025</p>
+            </div>
+
+            <!-- <nav> -->
+            <ul class="footer-social-links">
+                <li>
+                    <a class="facebook" href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="twitter" href="https://x.com" target="_blank" aria-label="Twitter">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="instagram" href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkedin" href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- </nav> -->
+
+            <div class="footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Stuart Beech</p>
+                <p>© <span id="year"></span> NextGen Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
