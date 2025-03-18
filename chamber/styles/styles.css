@@ -127,6 +127,11 @@ main {
     padding: 0;
 }
 
+h1 {
+    color: var(--background-color);
+    margin: 0 40px;
+}
+
 /* Button Styling */
 .toggle-btn-container {
     display: flex;
