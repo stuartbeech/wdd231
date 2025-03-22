@@ -405,9 +405,11 @@ footer p {
 } */
 
 #HeroImage>#HeroImageAndButton {
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 96%;
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
+    margin: 30px auto auto;
     position: relative;
 }
 
@@ -549,7 +551,7 @@ footer p {
         gap: 0;
         background-color: var(--background-color);
         position: absolute;
-        top: 86px;
+        top: 85px;
         right: 0;
         width: 30%;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
