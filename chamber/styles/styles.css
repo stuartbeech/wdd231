@@ -147,7 +147,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     /* margin-bottom: 30px; */
 }
 
@@ -537,9 +537,11 @@ form {
     gap: 20px;
 }
 
+form h1,
 form h2 {
+    /* font-size: 1.75rem; */
     font-style: italic;
-    margin-bottom: 25px;
+    margin: 0 0 25px;
 }
 
 form div,
