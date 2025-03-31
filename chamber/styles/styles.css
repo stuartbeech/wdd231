@@ -147,7 +147,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 1.5em;
     /* margin-bottom: 30px; */
 }
 
@@ -539,7 +539,7 @@ form {
 
 form h1,
 form h2 {
-    /* font-size: 1.75rem; */
+    font-size: 1.75em;
     font-style: italic;
     margin: 0 0 25px;
 }
@@ -631,8 +631,9 @@ input[type="submit"]:hover {
 }
 
 #membershipInfo h2 {
-    margin-bottom: 50px;
+    font-size: 1.75em;
     font-style: italic;
+    margin-bottom: 50px;
 }
 
 /* Membership Cards */
@@ -1038,7 +1039,7 @@ button#closeModal img {
     }
 
     #thankYouMain h2 {
-        font-size: 1.1rem;
+        font-size: 1.1em;
     }
 
     #userInfo {
