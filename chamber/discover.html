@@ -4,29 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stuart Beech Chamber Directory</title>
-    <meta name="description" content="WDD 231: Web Frontend Development 1 - Chamber Directory Page">
+    <title>Stuart Beech Chamber Discover</title>
+    <meta name="description" content="WDD 231: Web Frontend Development 1 - Chamber Discover Page">
     <meta name="author" content="Stuart Beech">
 
-    <meta property="og:title" content="W02 Chamber Directory Page">
+    <meta property="og:title" content="W03 Chamber Discover Page">
     <meta property="og:description" content="Personal portfolio of university course work.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://stuartbeech.github.io/wdd231/chamber/images/johannesburg.webp">
-    <meta property="og:url" content="https://stuartbeech.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://stuartbeech.github.io/wdd231/chamber/discover.html">
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
 
-    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
 
     <script src="scripts/main.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
     <script src="../scripts/date.js" defer></script>
 </head>
 
@@ -34,7 +29,7 @@
     <header id="header">
         <div class="header-row">
             <div class="logo">
-                <a href="index.html"><img src="images/nextgen.svg" alt="NextGen Network logo"></a>
+                <a href="index.html"><img src="images/nextgen.svg" alt="NextGen Network logo" /></a>
             </div>
             <nav>
                 <div id="hamburger" class="hamburger">
@@ -55,14 +50,14 @@
     </header>
 
     <main>
-        <h1>Chamber Directory</h1>
-        <div class="companies">
-            <div class="toggle-btn-container">
-                <button id="toggleLayoutBtn" aria-label="Toggle between list and grid view">Switch to List View</button>
-            </div>
-            <div id="cards"></div>
-        </div>
+        <h1>Discover Johannesburg!</h1>
+        <section class="discover-content">
+        </section>
     </main>
+
+    <aside class="visitor-container">
+        <p id="visitor-message"></p>
+    </aside>
 
     <footer>
         <div class="footer-grid">
@@ -124,5 +119,3 @@
         </div>
     </footer>
 </body>
-
-</html>

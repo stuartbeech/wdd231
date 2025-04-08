@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Apartheid Museum",
+        "address": "Northern Parkway, Ormonde, Johannesburg, 2091, South Africa",
+        "description": "The Apartheid Museum is one of the most important cultural attractions in South Africa, providing deep insights into the country's history during the apartheid era and its fight for freedom.",
+        "image": "discover/apartheid-museum.webp"
+    },
+    {
+        "name": "Nelson Mandela Square",
+        "address": "1 Maude St, Sandown, Sandton, Johannesburg, 2146, South Africa",
+        "description": "A major public space in Sandton, Johannesburg, Nelson Mandela Square is known for its giant statue of Nelson Mandela, surrounded by shops, restaurants, and a vibrant atmosphere.",
+        "image": "discover/nelson-mandela-square.webp"
+    },
+    {
+        "name": "Botanical Gardens",
+        "address": "Olifants Rd, Emmarentia, Johannesburg, 2195, South Africa",
+        "description": "This expansive and peaceful botanical garden is perfect for a relaxing day out, featuring beautiful landscapes, lush lawns and colourful flowers, a bird sanctuary, and the renowned Emmarentia Dam.",
+        "image": "discover/johannesburg-botanical-gardens.webp"
+    },
+    {
+        "name": "Gold Reef City",
+        "address": "Cnr Data Crescent & Northern Parkway, Ormonde, Johannesburg, 2131, South Africa",
+        "description": "Gold Reef City is an exciting amusement park and theme park situated on an old gold mine. It offers thrilling rides, a casino, and historical exhibitions related to Johannesburg's gold mining history.",
+        "image": "discover/gold-reef-city.webp"
+    },
+    {
+        "name": "Constitution Hill",
+        "address": "11 Kotze Street, Braamfontein, Johannesburg, 2017, South Africa",
+        "description": "Constitution Hill is home to the Constitutional Court and is significant in South Africa's journey to democracy. The site includes former prison cells and exhibitions on South Africa's struggle for justice and freedom.",
+        "image": "discover/constitution-hill.webp"
+    },
+    {
+        "name": "Maboneng Precinct",
+        "address": "286 Fox St, City and Suburban, Johannesburg, 2000, South Africa",
+        "description": "Maboneng is a trendy neighborhood in Johannesburg known for its vibrant arts scene, unique shops, street food, and galleries. It's a hub for urban creatives and a great place for cultural exploration.",
+        "image": "discover/maboneng-precinct.webp"
+    },
+    {
+        "name": "Lion Park",
+        "address": "1 Malibongwe Drive, Johannesburg, 2194, South Africa",
+        "description": "The Lion Park is a popular wildlife reserve offering a close-up experience with lions, as well as other wildlife such as giraffes, zebras, and hyenas. It's perfect for families looking to experience South Africa's wildlife.",
+        "image": "discover/lion-park.webp"
+    },
+    {
+        "name": "Soweto",
+        "address": "Soweto, Johannesburg, 1868, South Africa",
+        "description": "Soweto is a vibrant township famous for its history, particularly its role in the struggle against apartheid. Key landmarks include the home of Nelson Mandela (now a museum), the Hector Pieterson Memorial, and Vilakazi Street.",
+        "image": "discover/soweto.webp"
+    }
+]
