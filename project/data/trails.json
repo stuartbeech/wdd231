@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Delta Park Trails",
+        "location": "Randburg, Johannesburg",
+        "distance": "5.2 km",
+        "difficulty": "Easy",
+        "lat": -26.1342,
+        "lon": 28.0117,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.200213958417!2d28.00104611196333!3d-26.125014177030103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950b519ac13569%3A0xac38f232fff0b9e9!2sDelta%20Park!5e0!3m2!1sen!2sza!4v1744785721225!5m2!1sen!2sza",
+        "image": "images/delta-park.webp",
+        "description": "Popular with morning runners, Delta Park offers shaded paths and gentle terrain, making it ideal for beginners."
+    },
+    {
+        "name": "Melville Koppies Reserve",
+        "location": "Melville, Johannesburg",
+        "distance": "4.5 km",
+        "difficulty": "Moderate",
+        "lat": -26.1773,
+        "lon": 27.9992,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.8965460911736!2d27.999343524010946!3d-26.16749851787077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950b9b47135f11%3A0xb79576c484108561!2sMelville%20Koppies%20Nature%20Reserve!5e0!3m2!1sen!2sza!4v1744786050079!5m2!1sen!2sza",
+        "image": "images/melville-koppies.webp",
+        "description": "A hidden gem with historical roots and beautiful views over the city skyline, perfect for picturesque sunsets."
+    },
+    {
+        "name": "Modderfontein Reserve Trail",
+        "location": "Modderfontein, Johannesburg",
+        "distance": "8.0 km",
+        "difficulty": "Challenging",
+        "lat": -26.0829,
+        "lon": 28.1668,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.0075831429376!2d28.11874281196192!3d-26.06600857706675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9512d6a928f0b9%3A0x645d8a1f10531805!2sModderfontein%20Reserve!5e0!3m2!1sen!2sza!4v1744786157457!5m2!1sen!2sza",
+        "image": "images/modderfontein.webp",
+        "description": "This technical trail winds through wetlands and rocky sections, great for intermediate and experienced runners."
+    },
+    {
+        "name": "Rietvlei Nature Reserve",
+        "location": "Pretoria, Johannesburg",
+        "distance": "10.0 km",
+        "difficulty": "Moderate",
+        "lat": -25.7886,
+        "lon": 28.3739,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.6056417996883!2d28.25899322396219!3d-25.88245371850552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9567d00c3b30e1%3A0x8ccaf1082369fc1c!2sRietvlei%20Nature%20Reserve!5e0!3m2!1sen!2sza!4v1744786238626!5m2!1sen!2sza",
+        "image": "images/rietvlei.webp",
+        "description": "Rietvlei offers a mix of wildlife, grasslands, and a few challenges, perfect for those looking to run in nature."
+    },
+    {
+        "name": "The Wilds Nature Reserve",
+        "location": "Houghton, Johannesburg",
+        "distance": "4.0 km",
+        "difficulty": "Moderate",
+        "lat": -26.1819,
+        "lon": 28.0389,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.710421453268!2d28.049450911964577!3d-26.173558776999855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c47b1caeef5%3A0xe36bc10ec0f3ac71!2sThe%20Wilds%20Nature%20Reserve!5e0!3m2!1sen!2sza!4v1744786286344!5m2!1sen!2sza",
+        "image": "images/wilds.webp",
+        "description": "A beautifully hidden nature reserve with majestic views of the city skyline, ideal for peaceful and serene walks."
+    },
+    {
+        "name": "Walter Sisulu Botanical Gardens Trail",
+        "location": "Roodepoort, Johannesburg",
+        "distance": "6.5 km",
+        "difficulty": "Moderate",
+        "lat": -26.0863,
+        "lon": 27.8348,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.3609958931606!2d27.840127023997116!3d-26.08713211804899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95994c450eb50f%3A0xcd11e8cc251f3c59!2sWalter%20Sisulu%20National%20Botanical%20Garden!5e0!3m2!1sen!2sza!4v1744786333700!5m2!1sen!2sza",
+        "image": "images/walter-sisulu.webp",
+        "description": "Known for its waterfall and diverse birdlife, this trail blends scenic beauty with moderately challenging terrain."
+    },
+    {
+        "name": "Lonehill Koppie Trail",
+        "location": "Lonehill, Johannesburg",
+        "distance": "3.0 km",
+        "difficulty": "Easy",
+        "lat": -26.0243,
+        "lon": 28.0266,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1792.7400926731366!2d28.025249956684213!3d-26.01784019427423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95714e1540a7a3%3A0x66bb6d876704b42a!2sLone%20Hill%20Nature%20Reserve!5e0!3m2!1sen!2sza!4v1744786404650!5m2!1sen!2sza",
+        "image": "images/lonehill-koppie.webp",
+        "description": "A short, peaceful trail with rocky outcrops and a view of the suburb—perfect for a quick escape into nature."
+    },
+    {
+        "name": "Klipriviersberg Nature Reserve Trail",
+        "location": "South of Johannesburg",
+        "distance": "9.0 km",
+        "difficulty": "Challenging",
+        "lat": -26.2968,
+        "lon": 27.9981,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.7068698490607!2d28.006819424034276!3d-26.30360111757043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95060f68aae20d%3A0x609eb0fa6ee89612!2sKlipriviersberg%20Nature%20Reserve!5e0!3m2!1sen!2sza!4v1744786473260!5m2!1sen!2sza",
+        "image": "images/klipriviersberg.webp",
+        "description": "A rugged trail through the largest nature reserve in Joburg, with steep climbs and chances to spot wildlife."
+    },
+    {
+        "name": "Gillooly's Farm Trail",
+        "location": "Bedfordview, Johannesburg",
+        "distance": "4.8 km",
+        "difficulty": "Easy",
+        "lat": -26.1762,
+        "lon": 28.1251,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.9306214010903!2d28.12853081196435!3d-26.16638887700445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95123075dfd37f%3A0xaafd6a87217d8a6e!2sGillooly&#39;s%20Farm!5e0!3m2!1sen!2sza!4v1744786510190!5m2!1sen!2sza",
+        "image": "images/gilloolys.webp",
+        "description": "A green oasis near the city with paved and gravel paths around a dam, great for casual walks or short runs."
+    },
+    {
+        "name": "James and Ethel Gray Park Trail",
+        "location": "Melrose, Johannesburg",
+        "distance": "2.7 km",
+        "difficulty": "Easy",
+        "lat": -26.1319,
+        "lon": 28.0616,
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.8170785063144!2d28.057177011963677!3d-26.13750657702234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950ce2decaf6f9%3A0x81dede9ea3318508!2sJames%20%26%20Ethel%20Gray%20Park!5e0!3m2!1sen!2sza!4v1744786551668!5m2!1sen!2sza",
+        "image": "images/james-ethel-gray.webp",
+        "description": "Tucked between busy suburbs, this peaceful park offers grassy trails and great sunrise views over Sandton."
+    }
+]

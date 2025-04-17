@@ -1,0 +1,17 @@
+[
+    {
+        "title": "🌿 Trail Cleanup Day - April 27",
+        "description": "Join fellow runners and nature lovers in a community trail cleanup at Delta Park. Free t-shirts for volunteers and live acoustic music during breaks!",
+        "highlight": true
+    },
+    {
+        "title": "🌙 Trail Vibe Night Run - May 10",
+        "description": "Experience the thrill of night running with glow sticks and a post-run food market. Limited spots available!",
+        "highlight": false
+    },
+    {
+        "title": "📍 New Route Launch - Melville Koppies",
+        "description": "Explore a new beginner-friendly route with scenic overlooks and safe paths, launching this month.",
+        "highlight": false
+    }
+]

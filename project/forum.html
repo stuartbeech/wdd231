@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trail Vibe community discussions on gear, events, and trail tips.">
+    <meta name="author" content="Stuart Beech">
+    <title>Trail Vibe Adventures | Forum</title>
+
+    <meta property="og:title" content="W03 Chamber of Commerce">
+    <meta property="og:description" content="Personal portfolio of university course work.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://stuartbeech.github.io/wdd231/chamber/images/johannesburg.webp">
+    <meta property="og:url" content="https://stuartbeech.github.io/wdd231/project/forum.html">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="../images/favicon.png">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/forum.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Trail Vibe Adventures</h1>
+        <nav>
+            <button id="menuBtn" aria-hidden="true">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="forum-intro">
+            <h2>Community Forum</h2>
+            <p>Welcome to the Trail Vibe forum. Choose a category below to explore and share with fellow adventurers.
+            </p>
+        </section>
+
+        <section class="forum-category">
+            <h3>🥾 Gear Swaps</h3>
+            <div class="forum-post">
+                <h4>Lightly Used Altra Lone Peak 7s (Size UK10)</h4>
+                <p>Only 80 kilometers on them. Looking to trade for a hydration pack.</p>
+                <button class="view-button" data-post="gear1">View Post</button>
+            </div>
+        </section>
+
+        <section class="forum-category">
+            <h3>📅 Event Planning</h3>
+            <div class="forum-post">
+                <h4>Sunrise Group Run - Delta Park (Sat)</h4>
+                <p>Meet at 6 PM. All levels welcome!</p>
+                <button class="view-button" data-post="event1">View Post</button>
+            </div>
+        </section>
+
+        <section class="forum-category">
+            <h3>🏔️ Local Trails</h3>
+            <div class="forum-post">
+                <h4>Need Beginner-Friendly Loops in Joburg?</h4>
+                <p>Looking for short shaded loops near the city. Any recommendations?</p>
+                <button class="view-button" data-post="trails1">View Post</button>
+            </div>
+        </section>
+
+        <section class="forum-category">
+            <h3>❓ Trail Advice</h3>
+            <div class="forum-post">
+                <h4>Best Socks for Preventing Blisters?</h4>
+                <p>Wool or synthetic? I've been struggling with hotspots.</p>
+                <button class="view-button" data-post="advice1">View Post</button>
+            </div>
+        </section>
+
+        <section class="forum-category">
+            <h3>📸 Adventure Gallery</h3>
+            <div class="forum-post">
+                <h4>My First 10k - Reitvlei Nature Reserve</h4>
+                <p>Felt amazing. Sharing pics soon!</p>
+                <button class="view-button" data-post="gallery1">View Post</button>
+            </div>
+        </section>
+
+        <div id="loginModal" class="forum-modal hidden">
+            <div class="forum-modal-content">
+                <span class="close-modal">&times;</span>
+                <h3>🔒 Access Restricted</h3>
+                <p>You need to be a Trail Vibe community member to view this post.</p>
+                <button id="joinBtn" class="cta-button">Join the Community</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-left">
+                <p class="footer-heading">Trail Vibe Adventures</p>
+                <p>1 Corkbush Street</p>
+                <p>South Africa, 1709</p>
+                <p>sbeech@byui.edu</p>
+                <p>(+27) 71 896 4025</p>
+            </div>
+
+            <!-- <nav> -->
+            <ul class="footer-social-links">
+                <li>
+                    <a class="facebook" href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="twitter" href="https://x.com" target="_blank" aria-label="Twitter">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="instagram" href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkedin" href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- </nav> -->
+
+            <div class="footer-right">
+                <p>WDD231 Final Project</p>
+                <p>Stuart Beech</p>
+                <p>© <span id="year"></span> Trail Vibe Adventures</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

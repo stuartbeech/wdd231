@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore trails across Johannesburg. View weather, difficulty levels, and more.">
+    <meta name="author" content="Stuart Beech">
+    <title>Trail Vibe Adventures | Home</title>
+
+    <meta property="og:title" content="W03 Chamber of Commerce">
+    <meta property="og:description" content="Personal portfolio of university course work.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://stuartbeech.github.io/wdd231/chamber/images/johannesburg.webp">
+    <meta property="og:url" content="https://stuartbeech.github.io/wdd231/project/index.html">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="../images/favicon.png">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/news.js" defer></script>
+    <!-- <script src="scripts/spotlight.js" defer></script> -->
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Trail Vibe Adventures</h1>
+        <nav id="navMenu">
+            <button id="menuBtn" aria-hidden="true">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/banner.webp" alt="Trail Running Community" class="hero-image" loading="lazy">
+            <div class="hero-text">
+                <h1>Welcome to the Trail Running & Outdoor Adventure Community</h1>
+                <p>Connect with fellow outdoor enthusiasts, discover trails, and gear up for adventure.</p>
+                <a href="community.html" class="cta-button">Join the Community</a>
+            </div>
+        </section>
+
+        <section id="news-section">
+            <h2>News & Upcoming Events</h2>
+            <p>Check out the latest news and upcoming events in and around Johannesburg!</p>
+            <div id="news-container"></div>
+        </section>
+
+        <section class="top-trails">
+            <h2>Featured Trails & Activities</h2>
+            <p>Check out the best trails in and around Johannesburg with real-time weather updates!</p>
+
+            <div id="trail-list" class="trail-list"></div>
+            <div id="trail-modal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div id="modal-body"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gear-tips">
+            <h2>Top Gear Tips</h2>
+            <ul class="gear-tip-list">
+                <li class="tip-card">
+                    <div class="tip-icon">👟</div>
+                    <div class="tip-content">
+                        <h3>Shoes</h3>
+                        <p>Invest in trail running shoes with good grip and cushioning.</p>
+                    </div>
+                </li>
+                <li class="tip-card">
+                    <div class="tip-icon">💧</div>
+                    <div class="tip-content">
+                        <h3>Hydration</h3>
+                        <p>Use a lightweight hydration pack or belt.</p>
+                    </div>
+                </li>
+                <li class="tip-card">
+                    <div class="tip-icon">🧥</div>
+                    <div class="tip-content">
+                        <h3>Clothing</h3>
+                        <p>Dress in breathable layers and wear moisture-wicking socks.</p>
+                    </div>
+                </li>
+                <li class="tip-card">
+                    <div class="tip-icon">🔦</div>
+                    <div class="tip-content">
+                        <h3>Headlamp</h3>
+                        <p>A must-have for early or evening runs.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- <footer>
+        <p>&copy; 2025 TrailVibe Adventures</p>
+        <a href="attribution.html">Attributions</a>
+    </footer> -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-left">
+                <p class="footer-heading">Trail Vibe Adventures</p>
+                <p>1 Corkbush Street</p>
+                <p>South Africa, 1709</p>
+                <p>sbeech@byui.edu</p>
+                <p>(+27) 71 896 4025</p>
+            </div>
+
+            <!-- <nav> -->
+            <ul class="footer-social-links">
+                <li>
+                    <a class="facebook" href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="twitter" href="https://x.com" target="_blank" aria-label="Twitter">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="instagram" href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkedin" href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- </nav> -->
+
+            <div class="footer-right">
+                <p>WDD231 Final Project</p>
+                <p>Stuart Beech</p>
+                <p>© <span id="year"></span> Trail Vibe Adventures</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="scripts/trails.js"></script>
+</body>
+
+</html>
